@@ -167,12 +167,12 @@
       </HBox>
       <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="600.0">
          <children>
-            <Button cancelButton="true" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" text="Annuler">
+            <Button fx:id="bnAnnuler" cancelButton="true" mnemonicParsing="false" onAction="#clickAnnuler" prefHeight="20.0" prefWidth="80.0" text="Annuler">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button defaultButton="true" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" text="Imprimer">
+            <Button fx:id="bnImprimer" defaultButton="true" mnemonicParsing="false" onAction="#clickImprimer" prefHeight="20.0" prefWidth="80.0" text="Imprimer">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
