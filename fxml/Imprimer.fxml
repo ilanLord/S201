@@ -23,7 +23,8 @@
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="150.0" prefWidth="200.0">
                      <children>
-                        <Label text="Categorie X" textFill="WHITE" />
+                        <Label text="Categorie " textFill="WHITE" />
+                        <Label fx:id="categorie" layoutX="47.0" layoutY="53.0" text="X" textFill="WHITE" />
                      </children>
                   </HBox>
                </children>
@@ -51,7 +52,7 @@
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
                               </Label>
-                              <Label text="XX XXXX XXXX XX:XX" textFill="WHITE">
+                              <Label fx:id="dateHeure" text="XX XXXX XXXX XX:XX" textFill="WHITE">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -84,7 +85,7 @@
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
                               </Label>
-                              <Label text="X" textFill="WHITE">
+                              <Label fx:id="rang" text="X" textFill="WHITE">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -99,7 +100,7 @@
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
                               </Label>
-                              <Label text="XX" textFill="WHITE">
+                              <Label fx:id="numPlace" text="XX" textFill="WHITE">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -118,7 +119,7 @@
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
                               </Label>
-                              <Label text="XX:XX" textFill="WHITE">
+                              <Label fx:id="heureOuvertureSalle" text="XX:XX" textFill="WHITE">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -132,7 +133,7 @@
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
                               </Label>
-                              <Label text="XXXXXXX" textFill="WHITE">
+                              <Label fx:id="nbPersonnes" text="XXXXXXX" textFill="WHITE">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -143,7 +144,7 @@
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Label prefHeight="15.0" prefWidth="55.0" text="XXXXX" textFill="WHITE">
+                        <Label fx:id="estAbonnée" prefHeight="15.0" prefWidth="55.0" text="XXXXX" textFill="WHITE">
                            <HBox.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </HBox.margin>
@@ -153,7 +154,7 @@
                               <Insets bottom="5.0" top="5.0" />
                            </HBox.margin>
                         </ImageView>
-                        <Label prefHeight="15.0" prefWidth="70.0" text="XXXXX" textFill="WHITE">
+                        <Label fx:id="prixBillet" prefHeight="15.0" prefWidth="70.0" text="XXXXX" textFill="WHITE">
                            <HBox.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </HBox.margin>
