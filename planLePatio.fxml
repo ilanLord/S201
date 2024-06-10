@@ -1,0 +1,2575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="460.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege37" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege60" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege61" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege84" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege85" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege86" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege109" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege110" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege111" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege112" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege135" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege136" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege137" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege138" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege139" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege162" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege163" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege164" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege165" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege166" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege167" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+               <VBox.margin>
+                  <Insets left="15.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege190" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege191" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege192" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege193" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege194" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege195" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege218" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege219" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege220" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege221" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege222" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege223" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege246" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege247" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege248" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege249" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege250" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege251" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege274" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege275" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege276" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege277" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege278" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege279" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege303" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege304" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege305" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege306" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege307" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege330" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege331" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege332" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege333" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege356" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege357" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege358" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege381" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege382" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege405" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="50.0" top="50.0" />
+         </BorderPane.margin></VBox>
+   </left>
+   <top>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege16" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege25" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege26" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege27" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                        <Rectangle fx:id="BoutonSiege28" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin></Rectangle>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege17" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege18" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege19" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege20" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege29" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege30" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege31" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege32" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="33.0" prefWidth="135.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege21" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege22" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege23" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege24" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege33" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege34" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege35" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege36" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets top="15.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="446.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </VBox>
+   </right>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege38" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege39" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege40" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege41" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege42" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege43" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege44" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege45" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege46" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege47" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege48" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege49" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege50" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege51" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege52" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege53" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege54" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege55" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege56" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege57" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege58" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege59" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege62" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege63" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege64" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege65" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege66" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege67" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege68" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege69" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege70" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege71" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege72" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege73" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege74" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege75" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege76" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege77" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege78" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege79" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege80" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege81" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege82" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege83" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege87" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege88" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege89" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege90" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege91" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege92" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege93" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege94" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege95" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege96" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege97" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege98" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege99" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege100" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege101" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege102" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege103" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege104" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege105" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege106" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege107" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege108" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege113" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege114" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege115" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege116" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege117" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege118" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege119" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege120" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege121" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege122" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege123" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege124" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege125" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege126" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege127" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege128" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege129" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege130" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege131" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege132" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege133" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege134" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege140" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege141" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege142" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege143" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege144" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege145" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege146" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege147" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege148" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege149" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege150" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege151" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege152" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege153" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege154" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege155" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege156" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege157" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege158" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege159" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege160" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege161" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege168" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege169" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege170" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege171" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege172" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege173" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege174" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege175" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege176" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege177" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege178" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege179" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege180" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege181" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege182" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege183" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege184" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege185" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege186" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege187" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege188" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege189" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege196" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege197" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege198" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege199" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege200" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege201" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege202" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege203" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege204" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege205" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege206" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege207" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege208" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege209" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege210" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege211" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege212" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege213" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege214" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege215" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege216" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege217" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege224" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege225" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege226" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege227" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege228" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege229" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege230" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege231" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege232" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege233" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege234" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege235" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege236" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege237" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege238" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege239" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege240" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege241" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege242" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege243" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege244" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege245" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege252" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege253" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege254" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege255" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege256" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege257" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege258" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege259" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege260" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege261" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege262" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege263" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege264" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege265" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege266" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege267" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege268" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege269" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege270" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege271" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege272" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege273" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege280" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege281" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege282" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege284" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege285" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege286" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege287" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege288" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege289" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege290" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege291" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege292" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege293" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege294" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege295" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege296" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege297" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege298" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege299" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege300" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege301" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege302" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege308" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege309" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege310" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege311" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege312" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege313" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege314" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege315" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege316" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege317" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege318" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege319" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege320" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege321" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege322" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege323" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege324" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege325" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege326" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege327" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege328" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege329" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege334" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege335" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege336" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege337" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege338" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege339" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege340" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege341" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege342" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege343" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege344" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege345" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege346" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege347" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege348" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege349" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege350" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege351" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege352" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege353" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege354" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege355" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege359" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege360" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege361" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege362" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege363" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege364" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege365" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege366" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege367" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege368" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege369" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege370" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege371" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege372" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege373" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege374" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege375" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege376" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege377" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege378" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege379" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege380" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege383" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege384" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege385" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege386" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege387" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege388" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege389" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege390" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege391" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege392" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege393" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege394" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege395" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege396" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege397" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege398" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege399" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege400" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege401" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege402" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege403" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege404" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="BoutonSiege406" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege407" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege408" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege409" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege410" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege411" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege412" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege413" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege414" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege415" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege416" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege417" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege418" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege419" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege420" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege421" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege422" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege423" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege424" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege425" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege426" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle fx:id="BoutonSiege427" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege428" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege429" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege430" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege431" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege440" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege441" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege442" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege443" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BOTTOM_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege452" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege453" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege454" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege455" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="150.0">
+               <children>
+                  <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege432" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege433" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege434" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege435" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege444" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege445" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege446" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege447" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BOTTOM_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege456" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege457" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege458" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege459" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="150.0">
+               <children>
+                  <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege436" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege437" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege438" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege439" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege448" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege449" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege450" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege451" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BOTTOM_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="BoutonSiege460" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege461" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege462" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                        <Rectangle fx:id="BoutonSiege463" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onMouseClicked="#clicReservation" stroke="BLACK" strokeType="INSIDE" width="20.0">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </Rectangle>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="15.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+</BorderPane>
