@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vue.CtrlListeReservation">
+   <children>
+      <fx:include source="menuBarre.fxml" />
+      <VBox prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox alignment="CENTER" prefHeight="125.0" prefWidth="600.0">
+               <children>
+                  <SplitMenuButton fx:id="bnFiltres" mnemonicParsing="false" text="Filtres">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Alphabétique" />
+                      <MenuItem mnemonicParsing="false" text="Date" />
+                        <MenuItem mnemonicParsing="false" text="Nombre Billets" />
+                    </items>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </SplitMenuButton>
+                  <Button fx:id="bnRecherche" mnemonicParsing="false" onAction="#clicRecherche" text="Rechercher">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <ListView fx:id="listeReservation" prefHeight="359.0" prefWidth="600.0" />
+         </children>
+      </VBox>
+   </children>
+</VBox>

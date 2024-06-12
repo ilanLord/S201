@@ -4,9 +4,9 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<MenuBar xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<MenuBar xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vue.CtrlMenu">
   <menus>
-    <Menu mnemonicParsing="false" text="Reservations" />
-    <Menu mnemonicParsing="false" text="Plan" />
+    <Menu fx:id="bnReservations" mnemonicParsing="false" onAction="#clicMenu" text="Reservations" />
+    <Menu fx:id="bnPlan" mnemonicParsing="false" onAction="#clicMenu" text="Plan" />
   </menus>
 </MenuBar>

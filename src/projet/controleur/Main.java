@@ -1,29 +1,34 @@
 package projet.controleur;
 
+
 import javafx.application.Application;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import projet.vue.*;
 
 public class Main extends Application {
-	static private FenPrincipale fPrincipale;
+	static private FenListeReservation fListeReservation;
+	static private FenPlan fPlan;
 	static private FenBillet fBillet;
 	static private FenRecherche fRecherche;
 	static private FenReservation fReservation;
 	private static final int LARGEUR_FENETRE = 550;
 	private static final int HAUTEUR_FENETRE = 600;
+	
+	private static int ListeReservationPlan;
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		fPrincipale = new FenPrincipale();
-		fPrincipale.setMinWidth(LARGEUR_FENETRE);
-		fPrincipale.setMinHeight(HAUTEUR_FENETRE);
+		Main.setListeReservationPlan(1);
+		fListeReservation = new FenListeReservation();
+		fListeReservation.setMinWidth(LARGEUR_FENETRE);
+		fListeReservation.setMinHeight(HAUTEUR_FENETRE);
 		fBillet = new FenBillet();
 		fRecherche = new FenRecherche();
-		fReservation = new FenReservation();
+//		fReservation = new FenReservation();
 		fBillet.initModality(Modality.APPLICATION_MODAL);
 		fRecherche.initModality(Modality.APPLICATION_MODAL);
-		fPrincipale.show();
+		fListeReservation.show();
 	}
 	
 	//////////////////////////////////////////////////////////
@@ -34,12 +39,33 @@ public class Main extends Application {
 		System.exit(0);
 	}
 	
+	public static void fermerRecherche() {
+		fRecherche.close();		
+	}
+	
+	public static void afficherListeReservation() {
+		Main.setListeReservationPlan(1);
+		fPlan.close();
+		fListeReservation.show();		
+	}
+	
+	public static void afficherPlan() {
+		Main.setListeReservationPlan(2);
+		fListeReservation.close();
+		fPlan.show();
+		
+	}
+	
+	
+	public static void afficherRecherche() {
+		fRecherche.show();
+		
+	}
 	//////////////////////////////////////////////////////////
 	// Mise � jour des donn�es
 	//////////////////////////////////////////////////////////
 	
 	public static void rechercheParNumero(String numero) {
-		// TODO Auto-generated method stub
 		
 	}
 	
@@ -61,9 +87,15 @@ public class Main extends Application {
 
 	}
 
-	public static void fermerRecherche() {
-		fRecherche.close();		
+
+	public static int getListeReservationPlan() {
+		return ListeReservationPlan;
 	}
+
+	public static void setListeReservationPlan(int listeReservationPlan) {
+		ListeReservationPlan = listeReservationPlan;
+	}
+
 
 	
 	

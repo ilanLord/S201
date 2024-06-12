@@ -7,20 +7,17 @@ import javafx.scene.layout.Pane;
 import javafx.fxml.FXMLLoader;
 
 
-public class FenBillet extends Stage {
-
-	private CtrlBillet ctrl;
+public class FenPlan extends Stage {
 	
-	public FenBillet() throws IOException {
-		this.setTitle("Billet");
-		this.setResizable(false);
+	public FenPlan() throws IOException {
+		this.setTitle("Plan de la salle");
 		Scene laScene = new Scene(creerSceneGraph());
 		this.setScene(laScene);
 	}
 
 	private Pane creerSceneGraph() throws IOException {
      	FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/projet/Imprimer.fxml"));
+        loader.setLocation(getClass().getResource("/projet/planLePatio.fxml"));
         Pane root = loader.load();
         loader.getController();
      	return root;
