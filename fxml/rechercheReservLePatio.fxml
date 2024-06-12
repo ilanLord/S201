@@ -5,14 +5,13 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox prefHeight="288.0" prefWidth="600.0">
          <children>
             <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="300.0">
                <children>
-                  <RadioButton mnemonicParsing="false" prefHeight="18.0" prefWidth="149.0" selected="true" text="Information Client" textAlignment="CENTER">
+                  <RadioButton fx:id="rbClient" mnemonicParsing="false" onAction="#clicRbClient" prefHeight="18.0" prefWidth="149.0" selected="true" text="Information Client" textAlignment="CENTER">
                      <VBox.margin>
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </VBox.margin>
@@ -27,7 +26,7 @@
                               <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                            </HBox.margin>
                         </Label>
-                        <TextField>
+                        <TextField fx:id="txtNom">
                            <HBox.margin>
                               <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                            </HBox.margin>
@@ -44,7 +43,7 @@
                               <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                            </HBox.margin>
                         </Label>
-                        <TextField>
+                        <TextField fx:id="txtVille">
                            <HBox.margin>
                               <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                            </HBox.margin>
@@ -59,7 +58,7 @@
             <Separator orientation="VERTICAL" prefHeight="200.0" />
             <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="300.0">
                <children>
-                  <RadioButton mnemonicParsing="false" text="Numéro Reservation" textAlignment="CENTER" toggleGroup="$ChoixRecherche">
+                  <RadioButton fx:id="rbReservation" mnemonicParsing="false" onAction="#clicRbReservation" text="Numéro Reservation" textAlignment="CENTER" toggleGroup="$ChoixRecherche">
                      <VBox.margin>
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </VBox.margin>
@@ -71,7 +70,7 @@
                               <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                            </HBox.margin>
                         </Label>
-                        <TextField>
+                        <TextField fx:id="txtNumero">
                            <HBox.margin>
                               <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                            </HBox.margin>
@@ -88,12 +87,12 @@
       <Separator prefWidth="200.0" />
       <HBox alignment="CENTER" prefHeight="190.0" prefWidth="600.0">
          <children>
-            <Button cancelButton="true" mnemonicParsing="false" text="Annuler">
+            <Button fx:id="bnAnnuler" cancelButton="true" mnemonicParsing="false" onAction="#clicAnnuler" text="Annuler">
                <HBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </HBox.margin>
             </Button>
-            <Button defaultButton="true" mnemonicParsing="false" text="Valider">
+            <Button fx:id="bnValider" defaultButton="true" mnemonicParsing="false" onAction="#clicValider" text="Valider">
                <HBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </HBox.margin>
